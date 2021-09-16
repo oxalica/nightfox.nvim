@@ -4,6 +4,7 @@ M.foxes = {
   "nightfox",
   "nordfox",
   "palefox",
+  "pastelfox",
 }
 
 -- Returns a color table based on the name provided
