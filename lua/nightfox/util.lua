@@ -199,7 +199,7 @@ function util.load(theme, exec_autocmd)
     vim.cmd("hi clear")
   end
 
-  vim.o.background = "dark"
+  vim.o.background = theme.colors.light and "light" or "dark"
   vim.o.termguicolors = true
   vim.g.colors_name = theme.name
 
